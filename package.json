@@ -1,6 +1,7 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "docs": "jsdoc -c jsdoc.conf.json",
     "commit": "git-cz",
     "precommit": "echo",
     "start": "expo start",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0",
+    "better-docs": "^2.0.1",
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
@@ -31,6 +33,7 @@
     "eslint-plugin-react-hooks": "^2.5.1",
     "eslint-plugin-react-native": "^3.8.1",
     "husky": "^4.2.5",
+    "jsdoc": "^3.6.4",
     "prettier": "2.0.5"
   },
   "private": true,
