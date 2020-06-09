@@ -18,5 +18,8 @@
   "plugins": ["react", "react-native", "prettier"],
   "rules": {
     "prettier/prettier": "error"
+  },
+  "settings": {
+    "import/resolver": { "babel-module": {} }
   }
 }

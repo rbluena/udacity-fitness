@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-expo": "~8.1.0",
     "better-docs": "^2.0.1",
     "cz-conventional-changelog": "^3.2.0",
@@ -26,6 +27,7 @@
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-recommended": "^4.1.0",
+    "eslint-import-resolver-babel-module": "^5.1.2",
     "eslint-plugin-import": "^2.21.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.3",
