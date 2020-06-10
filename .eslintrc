@@ -17,7 +17,9 @@
   "extends": ["airbnb", "react-native", "prettier", "prettier/react"],
   "plugins": ["react", "react-native", "prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": "off"
   },
   "settings": {
     "import/resolver": { "babel-module": {} }
