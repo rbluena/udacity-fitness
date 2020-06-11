@@ -4,12 +4,21 @@
     "docs": "jsdoc -c jsdoc.conf.json",
     "commit": "git-cz",
     "precommit": "echo",
+    "test": "node_modules/.bin/jest",
+    "test-dev": "node_modules/.bin/jest --watchAll",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": [
+      "./enzyme.config.js"
+    ]
+  },
+  "detox": {},
   "dependencies": {
     "expo": "~37.0.3",
     "react": "~16.9.0",
@@ -23,6 +32,10 @@
     "babel-preset-expo": "~8.1.0",
     "better-docs": "^2.0.1",
     "cz-conventional-changelog": "^3.2.0",
+    "detox": "^16.7.2",
+    "detox-expo-helpers": "^0.6.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.11.0",
@@ -34,7 +47,10 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "eslint-plugin-react-native": "^3.8.1",
+    "expo-detox-hook": "^1.0.10",
     "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "jest-expo": "^37.0.0",
     "jsdoc": "^3.6.4",
     "prettier": "2.0.5"
   },

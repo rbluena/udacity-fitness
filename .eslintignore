@@ -1,3 +1,5 @@
 node_modules
 docs
+app/**/*.spec.js
+e2e/**/*.spec.js
 babel.config.js
