@@ -1,7 +1,9 @@
 {
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "jest/globals": true,
+    "detox/detox": true
   },
   "globals": {
     "Atomics": "readonly",
@@ -15,7 +17,7 @@
     "sourceType": "module"
   },
   "extends": ["airbnb", "react-native", "prettier", "prettier/react"],
-  "plugins": ["react", "react-native", "prettier"],
+  "plugins": ["react", "react-native", "prettier", "jest"],
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
