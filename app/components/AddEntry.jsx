@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { getMetricMetaInfo } from '@app-utils/helpers';
 import UdacitySteppers from './UdacitySteppers';
 import UdacitySlider from './UdacitySlider';
